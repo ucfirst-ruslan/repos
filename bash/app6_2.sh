@@ -53,8 +53,7 @@ do
 
             echo "Created valid symlink online"
         else
-            ln -s /services/php/bin/ph
-$ROOT_DIR/$CHAR1/$CHAR2/$LINE/cgi-bin/online
+            ln -s /services/php/bin/ph $ROOT_DIR/$CHAR1/$CHAR2/$LINE/cgi-bin/online
 
             echo "Created broken symlink online"
         fi

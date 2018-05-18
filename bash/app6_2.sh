@@ -33,17 +33,16 @@ do
     RAND1=$(( $RANDOM % 3 ))
 
     if [ ! "$RAND1" = '0' ]
-        then
+    then
         touch $ROOT_DIR/$CHAR1/$CHAR2/$LINE/public/.store
 
         echo "Created file .store"
     fi
 
-
     RAND2=$(( $RANDOM % 3 ))
 
     if [ ! "$RAND2" = '0' ] && [ ! "$RAND1" = '0' ]
-        then
+    then
 
         RAND3=$(( $RANDOM % 3 ))
 
